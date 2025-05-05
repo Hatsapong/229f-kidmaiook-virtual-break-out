@@ -5,12 +5,12 @@ public class ScreenScip : MonoBehaviour
 {
     public void Game_over()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     
     public void Gameplay_game()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
     
     public void Finish_game()
@@ -19,12 +19,12 @@ public class ScreenScip : MonoBehaviour
     }
     public void Menu_game()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(0);
     }
     
     public void Credit_game()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(4);
     }
     
     public void Exit_game()
