@@ -22,6 +22,11 @@ public class ScreenScip : MonoBehaviour
         SceneManager.LoadScene(4);
     }
     
+    public void Credit_game()
+    {
+        SceneManager.LoadScene(5);
+    }
+    
     public void Exit_game()
     {
         Application.Quit();
