@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 786482672}
   - component: {fileID: 786482675}
   m_Layer: 5
-  m_Name: MENU
+  m_Name: RESTART
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,7 +512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 786482675}
         m_TargetAssemblyTypeName: ScreenScip, Assembly-CSharp
-        m_MethodName: Game_over
+        m_MethodName: Gameplay_game
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

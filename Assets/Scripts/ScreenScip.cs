@@ -8,7 +8,7 @@ public class ScreenScip : MonoBehaviour
         SceneManager.LoadScene(1);
     }
     
-    public void test_game()
+    public void Gameplay_game()
     {
         SceneManager.LoadScene(2);
     }
