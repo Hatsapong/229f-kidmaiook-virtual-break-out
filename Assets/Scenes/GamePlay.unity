@@ -1,4 +1,4 @@
-%YAML 1.1
+T%YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
 --- !u!29 &1
 OcclusionCullingSettings:
@@ -29946,7 +29946,7 @@ Transform:
   m_GameObject: {fileID: 1679902525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06400013, y: 0.129735, z: 0.047974247}
+  m_LocalPosition: {x: -0.07800013, y: 0.13000011, z: 0.047974247}
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -36042,7 +36042,11 @@ Transform:
   m_GameObject: {fileID: 2040726045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+
   m_LocalPosition: {x: 9.08, y: 17.19, z: -0.047974247}
+
+  m_LocalPosition: {x: 0.664, y: 6.42, z: -0.047974247}
+
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
