@@ -1320,6 +1320,7 @@ GameObject:
   - component: {fileID: 402287694}
   - component: {fileID: 402287693}
   - component: {fileID: 402287692}
+  - component: {fileID: 402287696}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -1470,6 +1471,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &402287696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402287690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fa241203b48cda4b9cdffa50a204334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &440811207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,7 +1717,7 @@ GameObject:
   - component: {fileID: 512655284}
   - component: {fileID: 512655283}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: CanvasEnemyCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3229,7 +3242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1766307359, guid: 5fe5454ec8605de43809133b020d1b69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5634,7 +5647,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8187355101989356663, guid: 27a107940057e8743a507269b18a691a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5806,12 +5819,9 @@ SceneRoots:
   - {fileID: 440811210}
   - {fileID: 402287695}
   - {fileID: 662015454}
-<<<<<<< HEAD
   - {fileID: 1223036662}
   - {fileID: 1878452120}
-=======
   - {fileID: 971187370}
   - {fileID: 2082246913}
   - {fileID: 794754948}
   - {fileID: 512655286}
->>>>>>> 9e0b7ab7be49887d2353775afbcfa721ceedf615
